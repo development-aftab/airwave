@@ -1,0 +1,1 @@
+<img src="{{ $path??'no_image.png' }}" style="width: 40px;" alt="no image found" class="small-image">

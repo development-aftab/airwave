@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "poppins_reg";
+    src: url('../website/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: "poppins_semiBold";
+    src: url('../website/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "poppins_med";
+    src: url('../website/fonts/Poppins-Medium.ttf');
+}
+
+h1{
+    font-family: "poppins_semiBold";
+    font-size: 40px;
+    line-height: 56px;
+    color: #414141;
+}
+
+h2{
+    font-family: "poppins_semiBold";
+    font-size: 25px;
+    line-height: 42px;
+    color: #484C50;
+}
+
+h3{
+    font-family: "poppins_semiBold";
+    font-size: 20px;
+    line-height: 25px;
+    color: #484C50;
+}
+
+table th, table td{
+    font-family: "poppins_reg";
+    font-size: 18px;
+    line-height: 56px;
+}
+
+table td{
+    color: #4A4A4A;
+}
+
+table th{
+    color: #FFFFFF;
+}
+
+/* Global css starts from here */
+
+.white_box {padding: 50px 30px; box-shadow: 10px 10px 40px rgba(0,0,0,0.10); border-radius: 20px;}
+
+/* Global css ends here */
+
+
+/*.btn_primary{background: linear-gradient(44deg, #FFA200, #F18520); padding: 0 40px; color: white; border-radius: 30px; height: 60px; display: flex; align-items: center; justify-content: center;}*/
+.btn_primary{
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+}
+.inner_section_heading_wrapper{display: flex; align-items: center; justify-content: space-between;}
+
+.txt_field_white{margin-bottom: 30px;}
+.txt_field_white input, .txt_field_white select {height: 60px; background-color: white; border-radius: 46px; border: 0; padding-left: 20px; box-shadow: 21px 14px 25px rgb(0 0 0 / 6%);}
+.txt_field_white label{color: #4A4A4A; font-size: 13px; font-family: "poppins_reg";}
+
+.search_form .txt_field select {border: 1px solid #E2E2E2; background: #FFFFFF; border-radius: 46px; padding-left: 10px; height: 60px;}
+
+.navbar{background: transparent;}
+.navbar .top-left-part{height: 100px;text-align: center; display: flex; align-items: center;}
+.navbar .top-left-part .logo{width: 100%;}
+.navbar .top-left-part .logo b {display: none;}
+.navbar .top-left-part .logo span{width: 100%;}
+.navbar .top-left-part .logo span img {width: 75% !important;height: auto !important;}
+
+.navbar .navbar-header .user_img_name_wrapper {min-height: 100px;display: flex;align-items: center;gap: 20px;}
+.navbar .navbar-header .user_img_name_wrapper .user_image{width: 70px; height: 70px; overflow: hidden;}
+.navbar .navbar-header .user_img_name_wrapper .user_image img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.navbar .navbar-header{padding-right: 20px;}
+.navbar .navbar-header .user_img_name_wrapper .user_name a {font-size: 20px; font-family: "poppins_med"; color: #414141;}
+
+/* Dashboard index page style starts from here */
+
+.dash_main_info .inner_section_dash_info {display: flex; gap: 15px;}
+.dash_main_info .inner_section_dash_info .info-box:hover .media{box-shadow: 10px 10px 40px rgba(241,133,32,0.25);}
+
+/* DAshboard index page style ends here */
+
+
+/* Dashboard order details table style starts from here */
+
+.inner_section_table table{text-align: center; z-index: 99; position: relative;}
+.inner_section_table table thead {background: #4D4D4D;}
+.inner_section_table table thead tr th{color: white; border: 0; font-size: 20px; text-align: center;}
+.inner_section_table table thead tr th:first-child {overflow: hidden;border-top-left-radius: 75px;border-bottom-left-radius: 75px;}
+.inner_section_table table thead tr th:last-child {overflow: hidden;border-top-right-radius: 75px;border-bottom-right-radius: 75px;}
+.inner_section_table table tbody tr td:last-child {overflow: hidden;border-top-right-radius: 75px;border-bottom-right-radius: 75px;}
+.inner_section_table table tbody tr td:first-child {overflow: hidden;border-top-left-radius: 75px;border-bottom-left-radius: 75px;}
+.inner_section_table table tbody tr:nth-child(even){background: rgba(255, 206, 159, 0.10);}
+.inner_section_table table tbody tr:nth-child(odd){background: transparent;}
+.inner_section_table table tbody tr td{border: 0; color: #4A4A4A; font-size: 18px; font-family: "poppins_reg";}
+.inner_section_table table tbody tr td .action_btn{padding: 0;background: none;font-size: 18px;color: #B7B7B7;}
+.inner_section_table .action_dropdown {display: inline-block;}
+
+/* Dashboard order details table style ends here */
+
+/* Filter search form style starts from here */
+
+.search_form form {display: flex; align-items: center;}
+.search_form .txt_field {position: relative; margin-right: 10px;}
+.search_form .txt_field i {position: absolute; top: 0; left: 5px; font-size: 20px; padding: 20px 9px; color: #F18520;}
+.search_form .txt_field input{border: 1px solid #E2E2E2; background: #FFFFFF; border-radius: 46px; padding-left: 40px; height: 60px;}
+.search_form .search_btn {margin-left: -14px; z-index: 10; margin-right: 10px;}
+.search_form .add_sticker_btn {margin-left: 10px;}
+
+/* Filter search form style ends here */
+
+/* Custom checkbox style starts from here */
+
+.custom_check{position: relative;}
+.custom_check:before {content: ""; width: 25px; height: 25px; display: block; border: 1px solid #F18520; border-radius: 50%; top: 0; left: 0;}
+.custom_check:after {content: "\f00c"; width: 25px; height: 25px; border-radius: 50%; position: absolute; display: block; top: 4px; bottom: 0; left: auto; right: auto; margin: auto; font-family: "Font Awesome 5 Free"; font-weight: 900; display: none; font-size: 16px; color: white;}
+.custom_checkbox input{display: none;}
+.custom_checkbox input[type="checkbox"]:checked + label:after{display: block;}
+.custom_checkbox input[type="checkbox"]:checked + label:before{background: #F18520}
+
+/* Custom checkbox style ends here */
+
+/* Table dropdown custom style starts from here */
+
+.inner_section_table table tbody tr td {overflow: unset !important;}
+.inner_section_table table tbody tr td .dropdown button i{color: #F18520; font-size: 25px;}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu {text-align: center;right: 0; left: unset; border-radius: 10px;}
+.inner_section_table table tbody tr:last-child td .dropdown .dropdown-menu {bottom: 0; top: unset;}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item {display: block}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item { padding: 5px 0; font-size: 14px; color: #B9B8B8; text-decoration: underline; background: transparent; border: none; margin: 0 auto;}
+/* .inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item:last-child {border-bottom: 0;} */
+.inner_section_table table {border: 0;}
+
+/* Table dropdown custom style ends here */
+
+
+/* Upload CSV modal style starts from here */
+
+.upload_csv_modal .inner_section_upload_field label {font-size: 13px; font-family: 'poppins_reg'; color: #4A4A4A;}
+.upload_csv_modal .inner_section_upload_field .upload_field {background-color: white; border-radius: 46px; height: 60px; width: 100%; position: relative; padding: 0 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 21px 14px 25px rgba(0,0,0,0.06);}
+.upload_csv_modal .inner_section_upload_field .upload_field i{color: #F18520; font-size: 18px}
+.upload_csv_modal .inner_section_upload_field .upload_field input[type="file"] {opacity: 0; position: absolute; width: 100%; height: 100%; top: 0; left: 0;}
+.upload_csv_modal .inner_section_upload_field .upload_field .file_name {margin-bottom: 0; color: #9B9B9B; font-family: 'poppins_reg'; font-size: 13px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;}
+
+.upload_csv_modal .inner_section_csv_preview {display: flex; align-items: center; gap: 5px; margin: 20px 0;}
+.upload_csv_modal .inner_section_csv_preview .file_action_btns{display: flex; gap: 5px; flex-direction: column;}
+.upload_csv_modal .inner_section_csv_preview .csv_preview{flex: 2; text-align: center; height: 140px; background-color: white; border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 21px 14px 25px rgba(0,0,0,0.06);}
+
+.upload_csv_modal .modal-body {padding: 40px 30px;}
+.add_users_modal .modal-body {padding: 40px 80px;}
+.upload_csv_modal .modal-content{border-radius: 20px;}
+.upload_csv_modal .modal-body .modal_title{margin-bottom: 40px;}
+
+.btn_primary.btn_square {padding: 13px; height: 40px; border-radius: 7px;}
+
+.upload_csv_modal .modal-body .close_btn {position: absolute; right: 20px; top: 20px;}
+.upload_csv_modal .modal-body .close_btn button{background: linear-gradient(44deg, #FFA200, #F18520); opacity: 1; width: 30px; height: 30px; border-radius: 50%; color: white;}
+
+/* Upload CSV modal style ends here */
+
+/* Are you sure modal style starts from here */
+
+.delete_confirm_modal .modal-body {padding: 100px 50px; text-align: center;}
+.delete_confirm_modal .modal-body .inner_section_submit_btn input{margin: 0 auto; padding: 0 80px;}
+
+/* Are you sure modal style ends here */
+
+/* Add Groups page starts from here */
+
+.select2 .select2-choices{min-height: 60px !important;background-color: white;border-radius: 46px !important;border: 0;padding-left: 20px;box-shadow: 21px 14px 25px rgb(0 0 0 / 6%) !important; display: flex; align-items: center; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px;}
+.select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices{border: 0;}
+.add_groups_sec .inner_section_submit_btn input, .add_groups_sec .inner_section_submit_btn a {margin: 0 auto;padding: 0 70px; width: fit-content;}
+.inner_section_table thead tr th .custom_checkbox {display: flex; align-items: center; justify-content: center;}
+.inner_section_table thead tr th .custom_checkbox .custom_check {margin-bottom: 0;}
+.add_groups_sec .inner_section_users_list .search_form {margin-bottom: 20px;}
+.add_groups_sec .inner_section_users_list .search_form .txt_field {width: 100%; display: block;}
+
+.inner_section_users_list .inner_section_table {height: 325px;overflow: auto;margin-bottom: 30px;}
+/* .inner_section_users_list .inner_section_table table thead tr {display: block; width: 100%;} */
+.inner_section_users_list .inner_section_table::-webkit-scrollbar {width: 8px;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-track {background: #f1f1f1;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-thumb {background: #F18520; border-radius: 60px;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-thumb:hover {background: #555;}
+
+/* Add Groups page ends here */
+
+/* View email page style starts from here */
+
+.inner_section_view_email .mail_header {display: flex; align-items: center; justify-content: space-between;}
+.inner_section_view_email .mail_header .user_details_wrapper{display: flex; align-items: center; gap: 15px;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_image{width: 70px;height: 70px;overflow: hidden;border-radius: 50%;border: 1px solid black;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_image img{width: 100%;height: 100%;object-fit: contain;object-position: center;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_name_email_wrapper .user_name h3{margin: 0;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_name_email_wrapper .user_email p{margin: 0;}
+.inner_section_view_email .mail_header .delete_icon i{color: #B9B8B8; font-size: 18px;}
+.inner_section_view_email .mail_header{margin-bottom: 40px;}
+.inner_section_view_email .mail_body .mail_image{margin: 40px 0;}
+
+/* View email page style ends here */
+
+/* Send email page ck editor style starts from here */
+
+.ck-editor{padding: 20px 10px !important; box-shadow: 10px 10px 40px rgba(0,0,0,0.10); border-radius: 20px; overflow: hidden;}
+.ck-editor .ck-editor__main .ck-content {height: 180px; border: 0;}
+.ck-editor .ck-editor__main .ck-content.ck-focused {border: 0 !important; box-shadow: none !important;}
+.ck-editor .ck-toolbar{border: 0 !important;}
+
+/* Send email page ck editor style ends here */
+
+/* View campaign logs page style starts from here */
+
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h1 {margin-bottom: 0;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h1 span{color: #8E8E8E;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h2 {margin-top: 0;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h2 span{color: #8E8E8E;}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu {
+    text-align: center;
+    right: 0;
+    left: unset;
+    border-radius: 10px;
+}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu .dropdown-item {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #B9B8B8;
+    text-decoration: underline;
+}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu .dropdown-item {
+    display: block;
+}
+
+/* View campaign logs page style ends here */
+
+/* Data table modifications starts from here */
+
+.inner_section_table .dataTables_length, .inner_section_table .dataTables_filter {display: none;}
+
+/* Data table modification ends here */
+
+/* CK Editor style starts from here */
+
+body .cke_top{background: none;}
+body .cke_chrome {border: 0; box-shadow: 21px 14px 25px rgb(0 0 0 / 6%); border-radius: 46px; overflow: hidden;}
+body .cke_bottom {display: none;}
+
+/* CK Editor style ends here */

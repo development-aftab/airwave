@@ -1,0 +1,479 @@
+@font-face {
+    font-family: "rajdhani_reg";
+    src: url('../website/fonts/Rajdhani-Regular.ttf');
+}
+
+@font-face {
+    font-family: "rajdhani_semiBold";
+    src: url('../website/fonts/Rajdhani-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "rajdhani_med";
+    src: url('../website/fonts/Rajdhani-Medium.ttf');
+}
+
+@font-face {
+    font-family: "rajdhani_bold";
+    src: url('../website/fonts/Rajdhani-Bold.ttf');
+}
+
+h1{
+    font-family: "rajdhani_bold";
+    font-size: 40px;
+    line-height: 56px;
+    color: #414141;
+}
+
+h2{
+    font-family: "rajdhani_bold";
+    font-size: 25px;
+    line-height: 42px;
+    color: #484C50;
+}
+
+h3{
+    font-family: "poppins_semiBold";
+    font-size: 20px;
+    line-height: 25px;
+    color: #484C50;
+}
+
+table th{
+    font-family: "rajdhani_bold";
+    font-size: 18px;
+    line-height: 56px;
+}
+
+table td{
+    font-family: "rajdhani_semiBold";
+    font-size: 18px;
+    line-height: 56px;
+}
+
+table td{
+    color: #4A4A4A;
+}
+
+table th{
+    color: #FFFFFF;
+}
+
+/* Global css starts from here */
+
+.white_box {padding: 50px 30px; box-shadow: 10px 10px 40px rgba(0,0,0,0.10); border-radius: 20px;}
+.info-box .media.colored{background-color: #F5B21A;}
+.info-box .media.colored .info-count{color: white;}
+.info-box .media.colored .info-text{color: white;}
+
+/* Global css ends here */
+
+.btn_primary {
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+}
+form .btn.btn_primary,form .btn.btn_primary:hover,form .btn.btn_primary:active {
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+    border: 0!important;
+}
+.col-sm-12 > h3 + .btn.btn-success,.col-sm-12 > h3 + .btn.btn-success:active,.col-sm-12 > h3 + .btn.btn-success:hover{
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+    border: 0!important;
+}
+.col-md-12 > h3 + .btn.btn-success,.col-md-12 > h3 + .btn.btn-success:active,.col-md-12 > h3 + .btn.btn-success:hover{
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+    border: 0!important;
+}
+.col-md-4 > .form-group > .btn.btn-primary,.col-md-4 > .form-group > .btn.btn-primary:hover,.col-md-4 > .form-group > .btn.btn-primary:active{
+    background: #F5B21A;
+    padding: 0 40px;
+    color: white;
+    border-radius: 3px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "rajdhani_reg";
+    font-size: 20px;
+    border: 0!important;
+}
+.btn > i {
+    padding-right: 5px;
+}
+.inner_section_heading_wrapper{display: flex; align-items: center; justify-content: space-between;}
+.inner_section_heading_wrapper.search_space {
+    padding-right: 225px;
+}
+.txt_field_white{margin-bottom: 30px;}
+.txt_field_white input,.txt_field_white button,.txt_field_white select{height: 60px; background-color: white; border-radius: 3px; border: 0; padding-left: 20px; box-shadow: 21px 14px 25px rgb(0 0 0 / 6%);}
+.txt_field_white label{color: #4A4A4A; font-size: 13px; font-family: "rajdhani_semiBold";}
+
+.search_form .txt_field select {border: 1px solid #E2E2E2; background: #FFFFFF; border-radius: 3px; padding-left: 10px; height: 60px;}
+
+.navbar{background: transparent;}
+.navbar .top-left-part{height: 100px;text-align: center; display: flex; align-items: center;}
+.navbar .top-left-part .logo{width: 100%;}
+.navbar .top-left-part .logo b {display: none;}
+.navbar .top-left-part .logo span{width: 100%;}
+.navbar .top-left-part .logo span img {width: 75% !important;height: auto !important;}
+
+.navbar .navbar-header .user_img_name_wrapper {min-height: 100px;display: flex;align-items: center;gap: 20px;}
+.navbar .navbar-header .user_img_name_wrapper .user_image{width: 70px; height: 70px; overflow: hidden;}
+.navbar .navbar-header .user_img_name_wrapper .user_image img{width: 100%; height: 100%; object-fit: cover; object-position: center;}
+.navbar .navbar-header{padding-right: 20px;}
+.navbar .navbar-header .user_img_name_wrapper .user_name a {font-size: 20px; font-family: "poppins_med"; color: #414141;}
+
+/* Dashboard index page style starts from here */
+
+.dash_main_info .inner_section_dash_info {display: flex; gap: 15px;}
+.dash_main_info .inner_section_dash_info .info-box:hover .media{box-shadow: 10px 10px 40px rgba(241,133,32,0.25);}
+
+/* DAshboard index page style ends here */
+
+
+/* Dashboard order details table style starts from here */
+.inner_section_table table tbody tr:nth-child(odd) {
+    background: transparent;
+}
+.inner_section_table table tbody tr:nth-child(even) {
+    background: rgba(255, 206, 159, 0.10);
+}
+
+.inner_section_table table{text-align: center; z-index: 99; position: relative;}
+.inner_section_table table thead {background: #1A1818!important;}
+.inner_section_table table thead tr th{color: white; border: 0; font-size: 20px; text-align: center;}
+.inner_section_table table thead tr th:first-child {overflow: hidden;border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
+.inner_section_table table thead tr th:last-child {overflow: hidden;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.inner_section_table table tbody tr td:last-child {overflow: hidden;border-top-right-radius: 3px;border-bottom-right-radius: 3px;}
+.inner_section_table table tbody tr td:first-child {overflow: hidden;border-top-left-radius: 3px;border-bottom-left-radius: 3px;}
+.inner_section_table table tbody tr:nth-child(even){background: rgba(255, 206, 159, 0.10);}
+.inner_section_table table tbody tr:nth-child(odd){background: transparent;}
+.inner_section_table table tbody tr td{border: 0; color: #4A4A4A; font-size: 18px; font-family: "rajdhani_semiBold";}
+.inner_section_table table tbody tr td .action_btn{padding: 0;background: none;font-size: 18px;color: #B7B7B7;}
+.inner_section_table .action_dropdown {display: inline-block;}
+.inner_section_table table tbody tr td {
+    border: 0;
+    color: #4A4A4A;
+    font-size: 18px;
+    font-family: "rajdhani_semiBold";
+}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* Dashboard order details table style ends here */
+
+/* Filter search form style starts from here */
+
+.search_form form {display: flex; align-items: center;}
+.search_form .txt_field {position: relative; margin-right: 10px;}
+.search_form .txt_field i {position: absolute; top: 0; left: 5px; font-size: 20px; padding: 20px 9px; color: #F18520;}
+.search_form .txt_field input{border: 1px solid #E2E2E2; background: #FFFFFF; border-radius: 3px; padding-left: 40px; height: 60px;}
+.search_form .search_btn {margin-left: -14px; z-index: 10; margin-right: 10px;}
+.search_form .add_sticker_btn {margin-left: 10px;}
+
+/* Filter search form style ends here */
+
+/* Custom checkbox style starts from here */
+
+.custom_check{position: relative;}
+.custom_check:before {content: ""; width: 25px; height: 25px; display: block; border: 1px solid #F18520; border-radius: 50%; top: 0; left: 0;}
+.custom_check:after {content: "\f00c"; width: 25px; height: 25px; border-radius: 50%; position: absolute; display: block; top: 4px; bottom: 0; left: auto; right: auto; margin: auto; font-family: "Font Awesome 5 Free"; font-weight: 900; display: none; font-size: 16px; color: white;}
+.custom_checkbox input{display: none;}
+.custom_checkbox input[type="checkbox"]:checked + label:after{display: block;}
+.custom_checkbox input[type="checkbox"]:checked + label:before{background: #F18520}
+
+/* Custom checkbox style ends here */
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+    background: none;
+    border: 0px;
+    outline: none!important;
+    margin: auto;
+}
+/* Table dropdown custom style starts from here */
+
+.inner_section_table table tbody tr td {overflow: unset !important;}
+.inner_section_table table tbody tr td .dropdown button i{color: #F5B21A; font-size: 25px;}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu {text-align: center;right: 0; left: unset; border-radius: 10px; background-color: #F5B21A;}
+.inner_section_table table tbody tr:last-child td .dropdown .dropdown-menu {bottom: 0; top: unset;}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item {display: block}
+.inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item { padding: 5px 0; font-size: 14px; color: #fff; text-decoration: underline;}
+/* .inner_section_table table tbody tr td .dropdown .dropdown-menu .dropdown-item:last-child {border-bottom: 0;} */
+
+/* Table dropdown custom style ends here */
+
+
+/* Upload CSV modal style starts from here */
+
+.upload_csv_modal .inner_section_upload_field label {font-size: 13px; font-family: 'rajdhani_semiBold'; color: #4A4A4A;}
+.upload_csv_modal .inner_section_upload_field .upload_field {background-color: white; border-radius: 3px; height: 60px; width: 100%; position: relative; padding: 0 25px; display: flex; justify-content: space-between; align-items: center; box-shadow: 21px 14px 25px rgba(0,0,0,0.06);}
+.upload_csv_modal .inner_section_upload_field .upload_field i{color: #F18520; font-size: 18px}
+.upload_csv_modal .inner_section_upload_field .upload_field input[type="file"] {opacity: 0;position: absolute;width: 100%;height: 100%;top: 0;left: 0;cursor: pointer;}
+.upload_csv_modal .inner_section_upload_field .upload_field .file_name {margin-bottom: 0; color: #9B9B9B; font-family: 'rajdhani_reg'; font-size: 13px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical;}
+
+.upload_csv_modal .inner_section_csv_preview {display: flex; align-items: center; gap: 5px; margin: 20px 0;}
+.upload_csv_modal .inner_section_csv_preview .file_action_btns{display: flex; gap: 5px; flex-direction: column;}
+.upload_csv_modal .inner_section_csv_preview .csv_preview{flex: 2; text-align: center; height: 140px; background-color: white; border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 21px 14px 25px rgba(0,0,0,0.06);}
+
+.upload_csv_modal .modal-body {padding: 40px 30px;}
+.add_users_modal .modal-body {padding: 40px 80px;}
+.upload_csv_modal .modal-content{border-radius: 20px;}
+.upload_csv_modal .modal-body .modal_title{margin-bottom: 40px;}
+
+.btn_primary.btn_square {padding: 13px; height: 40px; border-radius: 7px;}
+
+.upload_csv_modal .modal-body .close_btn {position: absolute; right: 20px; top: 20px;}
+.upload_csv_modal .modal-body .close_btn button{background: linear-gradient(44deg, #FFA200, #F18520); opacity: 1; width: 30px; height: 30px; border-radius: 50%; color: white;}
+
+/* Upload CSV modal style ends here */
+
+/* Are you sure modal style starts from here */
+
+.delete_confirm_modal .modal-body {padding: 100px 50px; text-align: center;}
+.delete_confirm_modal .modal-body .inner_section_submit_btn input{margin: 0 auto; padding: 0 80px;}
+
+/* Are you sure modal style ends here */
+
+/* Add Groups page starts from here */
+
+.select2 .select2-choices{min-height: 60px !important;background-color: white;border-radius: 3px !important;border: 0;padding-left: 20px;box-shadow: 21px 14px 25px rgb(0 0 0 / 6%) !important; display: flex; align-items: center; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px;}
+.select2-dropdown-open.select2-drop-above .select2-choice, .select2-dropdown-open.select2-drop-above .select2-choices{border: 0;}
+.add_groups_sec .inner_section_submit_btn input, .add_groups_sec .inner_section_submit_btn a {margin: 0 auto;padding: 0 70px; width: fit-content;}
+.inner_section_table thead tr th .custom_checkbox {display: flex; align-items: center; justify-content: center;}
+.inner_section_table thead tr th .custom_checkbox .custom_check {margin-bottom: 0;}
+.add_groups_sec .inner_section_users_list .search_form {margin-bottom: 20px;}
+.add_groups_sec .inner_section_users_list .search_form .txt_field {width: 100%; display: block;}
+
+.inner_section_users_list .inner_section_table {height: 325px;overflow: auto;margin-bottom: 30px;}
+/* .inner_section_users_list .inner_section_table table thead tr {display: block; width: 100%;} */
+.inner_section_users_list .inner_section_table::-webkit-scrollbar {width: 8px;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-track {background: #f1f1f1;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-thumb {background: #F18520; border-radius: 60px;}
+.inner_section_users_list .inner_section_table::-webkit-scrollbar-thumb:hover {background: #555;}
+
+/* Add Groups page ends here */
+
+/* View email page style starts from here */
+
+.inner_section_view_email .mail_header {display: flex; align-items: center; justify-content: space-between;}
+.inner_section_view_email .mail_header .user_details_wrapper{display: flex; align-items: center; gap: 15px;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_image{width: 70px;height: 70px;overflow: hidden;border-radius: 50%;border: 1px solid black;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_image img{width: 100%;height: 100%;object-fit: contain;object-position: center;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_name_email_wrapper .user_name h3{margin: 0;}
+.inner_section_view_email .mail_header .user_details_wrapper .user_name_email_wrapper .user_email p{margin: 0;}
+.inner_section_view_email .mail_header .delete_icon i{color: #B9B8B8; font-size: 18px;}
+.inner_section_view_email .mail_header{margin-bottom: 40px;}
+.inner_section_view_email .mail_body .mail_image{margin: 40px 0;}
+
+.inner_section_view_email .mail_reply_btn{margin-top: 30px;}
+.inner_section_view_email .mail_reply_btn .btn_primary {width: fit-content;}
+.inner_section_view_email .mail_reply_btn .btn_primary i{margin-right: 5px;}
+
+/* View email page style ends here */
+
+/* Send email page ck editor style starts from here */
+
+.ck-editor{padding: 20px 10px !important; box-shadow: 10px 10px 40px rgba(0,0,0,0.10); border-radius: 3px; overflow: hidden;}
+.ck-editor .ck-editor__main .ck-content {height: 180px; border: 0;}
+.ck-editor .ck-editor__main .ck-content.ck-focused {border: 0 !important; box-shadow: none !important;}
+.ck-editor .ck-toolbar{border: 0 !important;}
+
+/* Send email page ck editor style ends here */
+
+/* View campaign logs page style starts from here */
+
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h1 {margin-bottom: 0;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h1 span{color: #8E8E8E;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h2 {margin-top: 0;}
+.view_campaign_logs_sec .inner_section_heading_wrapper .top_heading h2 span{color: #8E8E8E;}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu {
+    text-align: center;
+    right: 0;
+    left: unset;
+    border-radius: 10px;
+    background-color: #ED8D22;
+}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu .dropdown-item {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.view_campaign_logs_sec .search_form .dropdown .dropdown-menu .dropdown-item {
+    display: block;
+}
+
+/* View campaign logs page style ends here */
+
+
+/* Style for sidebar logout btn */
+
+.sidebar-nav ul#side-menu li.logout_list {position: absolute; bottom: 40px;}
+
+/* Style for sidebar logout btn */
+
+
+table.dataTable {
+    border: 0!important;
+}
+.txt_field_white label {
+    color: #4A4A4A;
+    font-size: 13px;
+    font-family: "rajdhani_semiBold";
+}
+.dropdown-menu {
+    top: 150%;
+}
+.ck-editor,.cke_editor_body {
+    box-shadow: 10px 10px 40px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    overflow: hidden;
+    border: 0px!important;
+    padding: 10px!important;
+}
+.cke_top {
+    background: none!important;
+}
+.cke_bottom {
+    background: none!important;
+    border: 0px!important;
+}
+textarea{
+    resize: none!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #F5B21A;
+    background-color: #F5B21A;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    background-color: #F5B21A;
+    border-color: #F5B21A;
+}
+input[type="search"] {
+    border: 1px solid #E2E2E2!important;
+    background: #FFFFFF!important;
+    border-radius: 3px!important;
+    padding-left: 40px!important;
+    height: 60px!important;
+}
+
+.sidebar-nav ul#side-menu li a:hover {
+    color: #EE9121;
+    background-color: white;
+}
+.sidebar-nav ul#side-menu li a:hover img {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(58%) saturate(3087%) hue-rotate(343deg) brightness(95%) contrast(96%);
+}
+.download_sticker_btn{
+    margin-right: 10px;
+}
+.remove_download_btn .buttons-excel{
+    display: none;
+}
+.search_bar_position #myTable_filter {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+.search_bar_position.button_exists #myTable_filter{
+    top: 38px;
+}
+.search_bar_position > .container-fluid > .row > .col-sm-12{
+    position: unset;
+}
+.page-wrapper{
+    position: relative;
+}
+.dataTables_wrapper{
+    position: unset;
+}
+.top_heading h1 {
+    white-space: nowrap;
+}
+#myTable_filter > label{
+    color: white;
+}
+#myTable_filter input{
+    color: black!important;
+}
+#myTable_filter label:before{
+    content: "\f002";
+    font-family: "Font Awesome 6 Free";
+    color: #F18520;
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    left: 70px;
+    top: 15px;
+}
+.inner_section_heading_wrapper .btn.btn_primary {
+    position: relative;
+    z-index: 1;
+}
+.daterangepicker .calendar-table th, .daterangepicker .calendar-table td {
+    color: black;
+    font-family: arial;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #F5B21A;
+    color: white !important;
+}
+.daterangepicker .btn-primary.disabled.focus,.daterangepicker .btn-primary.disabled:focus,.daterangepicker .btn-primary.disabled:hover,.daterangepicker .btn-primary.focus,.daterangepicker .btn-primary:focus,.daterangepicker .btn-primary:hover {
+    background: #F5B21A;
+    opacity: 0.8;
+    border: 2px solid #F5B21A;
+}
+.daterangepicker .btn-primary,.daterangepicker .btn-primary.disabled {
+    background: #F5B21A;
+    border: 2px solid #F5B21A;
+}
+.table-responsive {
+    overflow: visible!important;
+}
